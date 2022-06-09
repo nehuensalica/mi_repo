@@ -1,0 +1,336 @@
+* {
+    margin:0;
+    padding:0;
+  
+}
+header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    
+}
+.logo-Nombre {
+    color: rgb(187, 140, 21);
+    background-color: rgb(9, 221, 122);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-style: normal;
+    list-style-type: none;
+    
+}
+/*@media only screen and (max-width: 1060px)*/    
+
+
+body{
+    background-image: url(cactus/cactus-FONDO.jpg); 
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+main{
+
+    padding-top: 100px;
+    
+}
+
+.botonBuscador {
+    flex-direction: column;
+
+}
+
+.navegacion {   
+    width: 40px auto;
+    height: 55px;
+    margin: 30px auto;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    word-spacing: 190px;
+
+}
+@media only screen and (max-width: 1024px)      {   
+    .navegacion  {   
+        margin: 0px;
+        background-color: white;
+        word-spacing: 5px;
+        
+    }
+}    
+
+.navegacion ul  {   
+    list-style: none;
+    
+}
+
+.menu > li  {   
+    position: relative;
+    display: inline-block;
+}
+
+    
+
+.menu > li > a  {   
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover    {   
+    color: #ce7d35;
+    background-color: white;
+}
+.grid-layout .botonBuscador   {   
+    grid-area: nav;
+    
+}
+
+/*SUB MENU*/
+
+.submenu    {   
+    position: absolute;
+    color: #333333;
+    width: 120%;
+    display: none;
+    
+}
+
+
+
+.submenu li a{   
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightgreen;
+    text-decoration: none;
+  
+}
+
+.menu li:hover .submenu {   
+    display: block;
+}
+
+main{
+
+    padding-top: 100px;
+}
+
+.titulo-Producto {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    
+       
+}
+@media only screen and (max-width: 1024px)  {   
+    .titulo-Producto    {   
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+.titulo-Producto h2  {   
+    text-decoration: underline;
+    
+}
+.cactus-img   {   
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid;
+    
+}
+
+
+
+.sucu-img   {
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid;
+}
+
+.sust-img   {   
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid;
+}
+
+
+.descripcion    {   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    /* Estilos*/
+}
+
+
+
+.precio {   
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: green;
+    background-color: lightgoldenrodyellow;
+}
+
+
+.parrafos   {   
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: transparent;
+   
+}
+@media only screen and (max-width: 1024px)  {   
+    .parrafos   {   
+        background-color: transparent;
+        text-align: center;
+        color: black;
+        background-color: green;
+    }
+}
+
+.tips-titulo {   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-decoration: underline;
+    color: green;
+    
+}
+.tips {   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    
+    
+}
+
+/* Flexbox*/
+
+
+.flex-columnas  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+       
+}
+@media only screen and (max-width: 1024px)  {   
+    .flex-columnas  {   
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
+.caja   {   
+    background-color: transparent;
+    border: 1px solid black;
+    
+    line-height: 30px;
+}
+
+
+.grid-layout    {   
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:"head       head"
+                        "nav        nav"
+                        "section    section"
+                        "foot       foot";
+    
+}
+ 
+.gridtest   {   
+    display: grid;
+    grid-area: section;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:     "articulo1  articulo2"
+                            "articulo3  articulo4";
+    
+}
+@media only screen and (max-width: 1024px)  {   
+    .gridtest   {   
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.grid-layout .head {   
+    
+    grid-area: head;
+}
+.grid-layout .nav {   
+    
+    grid-area: nav;
+    
+    
+}
+
+.gridtest .articulo1 {   
+    background-color: lightsalmon;
+    grid-area: articulo1;
+    border: solid 2px ;
+
+
+}
+.gridtest .articulo2 {   
+    background-color: lightsalmon;
+    grid-area: articulo2;
+    border: solid 2px ;
+    
+       
+}
+.gridtest .articulo3  {   
+    background-color: lightsalmon;
+    grid-area: articulo3;
+    border: solid 2px ;
+}
+
+.gridtest .articulo4  {   
+    background-color: lightsalmon;
+    grid-area: articulo4;
+    border: solid 2px ;
+}
+.gridtest .foot   {   
+    background-color: hotpink;
+    grid-area: foot;
+}
+.mapa-goole {   
+    padding: auto;
+}
+@media only screen and (max-width: 1024px)  {   
+    .mapa-goole {   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+/* Brian, no se como ajustar el mapa de google, me fije en el iframe que viene determinado y no se como hacerlo
+probe aca arriba con el media, pero no me lo tomo*/
