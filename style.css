@@ -23,7 +23,7 @@ header{
 
 
 body{
-    background-image: url(cactus/cactus-FONDO.jpg); 
+    background-image: linear-gradient(to bottom , green , lightblue); 
     background-color: aqua;
     background-size: cover;
     background-repeat: no-repeat;
