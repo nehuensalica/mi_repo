@@ -301,14 +301,14 @@ main{
     
 }
 
-.gridtest .articulo1 {   
+/*.gridtest*/ .articulo1 {   
     background-color: lightsalmon;
-    grid-area: articulo1;
+    /*grid-area: articulo1;*/
     border: solid 2px ;
 
 
 }
-.gridtest .articulo2 {   
+/*.gridtest .articulo2 {   
     background-color: lightsalmon;
     grid-area: articulo2;
     border: solid 2px ;
@@ -329,7 +329,7 @@ main{
 .gridtest .foot   {   
     background-color: hotpink;
     grid-area: foot;
-}
+}*/
 .mapa-goole {   
     padding: auto;
 }
