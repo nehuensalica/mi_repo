@@ -124,9 +124,10 @@ main{
 
 .titulo-Producto {
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: white;
     text-align: center;
     font-size: x-large;
+    margin-top: 50px;
     
        
 }
@@ -141,18 +142,26 @@ main{
 }
 .titulo-Producto h2  {   
     text-decoration: underline;
+    background: black;
     
 }
-.cactus-img   {   
+
+.card-title{
+    font: fallback;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.card-text  {   
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/*.cactus-img   {   
     height: 400px;
     width: 200px;
     object-fit: cover;
     border: 3px solid;
     
 }
-
-
-
 .sucu-img   {
     height: 400px;
     width: 200px;
@@ -166,26 +175,26 @@ main{
     object-fit: cover;
     border: 3px solid;
 }
+*/
 
-
-.descripcion    {   
+/*.descripcion    {   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
     word-spacing: 5px;
-    /* Estilos*/
+    /* Estilos
 }
+*/
 
 
-
-.precio {   
+/*.precio {   
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: green;
     background-color: lightgoldenrodyellow;
 }
-
+*/
 
 .parrafos   {   
     word-spacing: 5px;
