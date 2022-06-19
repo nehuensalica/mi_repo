@@ -3,12 +3,7 @@
     padding:0;
   
 }
-header{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 30px;
-    
-}
+
 .logo-Nombre {
     color: rgb(187, 140, 21);
     background-color: rgb(9, 221, 122);
@@ -19,7 +14,7 @@ header{
     list-style-type: none;
     
 }
-/*@media only screen and (max-width: 1060px)*/    
+  
 
 
 body{
@@ -29,18 +24,6 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     
-}
-
-
-main{
-
-    padding-top: 100px;
-    
-}
-
-.botonBuscador {
-    flex-direction: column;
-
 }
 
 .navegacion {   
@@ -62,6 +45,7 @@ main{
         
     }
 }    
+
 
 .navegacion ul  {   
     list-style: none;
@@ -92,7 +76,7 @@ main{
     
 }
 
-/*SUB MENU*/
+
 
 .submenu    {   
     position: absolute;
@@ -118,10 +102,7 @@ main{
     display: block;
 }
 
-main{
 
-    padding-top: 100px;
-}
 
 .titulo-Producto {
     font-family: 'Courier New', Courier, monospace;
@@ -146,7 +127,10 @@ main{
     background: black;
     
 }
-
+.col-fot { 
+    width: 400px;
+    
+}
 .card-title{
     font: fallback;
     font-size: x-large;
@@ -156,46 +140,7 @@ main{
     font-family: 'Courier New', Courier, monospace;
     color: black;
 }
-/*.cactus-img   {   
-    height: 400px;
-    width: 200px;
-    object-fit: cover;
-    border: 3px solid;
-    
-}
-.sucu-img   {
-    height: 400px;
-    width: 200px;
-    object-fit: cover;
-    border: 3px solid;
-}
 
-.sust-img   {   
-    height: 400px;
-    width: 200px;
-    object-fit: cover;
-    border: 3px solid;
-}
-*/
-
-/*.descripcion    {   
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    word-spacing: 5px;
-    /* Estilos
-}
-*/
-
-
-/*.precio {   
-    display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: green;
-    background-color: lightgoldenrodyellow;
-}
-*/
 
 .parrafos   {   
     word-spacing: 5px;
@@ -229,9 +174,6 @@ main{
     
     
 }
-
-/* Flexbox*/
-
 
 .flex-columnas  {
     display: flex;
@@ -302,35 +244,14 @@ main{
     
 }
 
-/*.gridtest*/ .articulo1 {   
+.articulo1 {   
     background-color: lightsalmon;
-    /*grid-area: articulo1;*/
-    border: solid 2px ;
-
-
-}
-/*.gridtest .articulo2 {   
-    background-color: lightsalmon;
-    grid-area: articulo2;
-    border: solid 2px ;
     
-       
-}
-.gridtest .articulo3  {   
-    background-color: lightsalmon;
-    grid-area: articulo3;
     border: solid 2px ;
+
+
 }
 
-.gridtest .articulo4  {   
-    background-color: lightsalmon;
-    grid-area: articulo4;
-    border: solid 2px ;
-}
-.gridtest .foot   {   
-    background-color: hotpink;
-    grid-area: foot;
-}*/
 .mapa-goole {   
     padding: auto;
 }
@@ -342,5 +263,3 @@ main{
         
     }
 }
-/* Brian, no se como ajustar el mapa de google, me fije en el iframe que viene determinado y no se como hacerlo
-probe aca arriba con el media, pero no me lo tomo*/
