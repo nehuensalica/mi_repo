@@ -1,4 +1,8 @@
 @import "colores";
+$tamanoBoton: 100%;
+$tamanoTipo: 24px;
+
+
 * {
     margin:0;
     padding:0;
@@ -90,7 +94,28 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color: $colorPrimario;
 }
+.btn    {   
+    background-color: $fondoBoton;
+    width: $tamanoBoton;
+    height: $tamanoBoton;
+    font-size: $tamanoTipo;
 
+
+}
+
+@media only screen and (max-width: 1025px) {
+    .btn    {   
+        width: $tamanoBoton / 2;
+        height: $tamanoBoton / 2;
+        font-size: $tamanoTipo / 2;
+        @if $tamanoBoton / 2 <= 50% {
+            background-color: violet;
+        }
+        @else   {   
+            background-color: red;
+        }
+    }
+}
 
 .parrafos   {   
     word-spacing: 5px;
