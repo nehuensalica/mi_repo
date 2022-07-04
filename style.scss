@@ -150,13 +150,7 @@ body{
     
     
 }
-/*.new--tips   {   
-    @extend .tips;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: start;
-    text-decoration: wavy;
-    color: green;
-}*/
+
 
 .flex-columnas  {
     display: flex;
@@ -254,5 +248,13 @@ body{
     font-size: x-large;
     color: #353535;
 }
+@mixin letra {
+    color: lightgray;
+    justify-content: end;
+        
+}
 
+.tips   {   
+    @include letra;
+}
 
