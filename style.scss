@@ -3,6 +3,9 @@ $tamanoBoton: 100%;
 $tamanoTipo: 24px;
 
 
+
+
+
 * {
     margin:0;
     padding:0;
@@ -99,8 +102,6 @@ body{
     width: $tamanoBoton;
     height: $tamanoBoton;
     font-size: $tamanoTipo;
-
-
 }
 
 @media only screen and (max-width: 1025px) {
@@ -149,6 +150,13 @@ body{
     
     
 }
+/*.new--tips   {   
+    @extend .tips;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    text-decoration: wavy;
+    color: green;
+}*/
 
 .flex-columnas  {
     display: flex;
@@ -238,3 +246,13 @@ body{
         
     }
 }
+
+.new--texto {   
+    @extend .texto !optional;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #353535;
+}
+
+
