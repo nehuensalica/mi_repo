@@ -8,274 +8,87 @@
     <meta name="description" content="el garage cactus, viveros en zona sur, plantas, productos,">
 
     <title>El Garage | Productos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
-<link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style.css">
 
 </head>
-<body>
 
-    <header>
-        <h1 class="logo-Nombre animate__animated animate__wobble">Productos</h1>
+<body class="body">
 
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-white p-4">
-            <h5 class="text-white h4">
-              <ul class="menu">
+  <header class="header">
+      <a href="../index.html"><img class="img-logo" src="../Fotos/Logo.jpg" alt="Logo"></a>
+      <input type="checkbox" id="menu-check">
+        <label id="menu" for="menu-check">
+          <span id="menu-abrir">&#9776;</span>
+          <span id="menu-cerrar">X</span>
+        </label>
+
+    <nav class="nav">
+      <ul class="menu-padre">
+        <li class="menu-hijos"><a class="link-menu" href="../index.html">Inicio</a></li>
+        <li class="menu-hijos"><a class="link-menu" href="./contacto.html">Contacto</a></li>
+        <li class="menu-hijos"><a class="link-menu" href="./nosotros.html">Nosotros</a></li>
+        <li class="menu-hijos"><a class="link-menu" href="./tips.html">Tips</a></li>
+      </ul>
+    </nav>  
+  </header>
+  <main>
+      <section>  
+        <h2>Cactus chicos</h2>
+          <div class="cactus-productos">
+            <img class="productos-card" src="../Fotos/cactuschiquito.jpg" alt="cactuschiquito">
+            <img class="productos-card" src="../Fotos/CactusChico.jpg" alt="cactuschicomacetarosa">
+            <img class="productos-card" src="../Fotos/cactuschico2.jpg" alt="cactuschico">
+            <img class="productos-card" src="../Fotos/cactusflor.JPG" alt="cactusconflor">
+          </div>
+      <section>
+        <h2>Cactus Medianos</h2>
+          <div class="cactus-productos">
             
-                <li class=""><a href="../index.html">Inicio</a></li>
-                <li class=""><a href="./nosotros.html">Nosotros</a></li>
-                <li class=""><a href="./tips.html">Tips</a></li>
-                <li class=""><a href="./contacto.html">Contacto</a></li>
-            </h5>
-            <!--span class="text-muted">Si lees esto, tenes 10% de descuento</span-->
+          <img class="productos-card" src="../Fotos/cactusmediano.jpg" alt="cactusmedianoverde">
+          <img class="productos-card" src="../Fotos/cactusmediano1.jpg" alt="cactuslargo">
+          <img class="productos-card" src="../Fotos/cactusmediano2.jpeg" alt="cactuslargo1">
+          <img class="productos-card" src="../Fotos/cactusmediano3.jpg" alt="cactuslargo2">
           </div>
-        </div>
-        <nav class="navbar navbar-dark bg-green">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      </section>
+
+      <section>
+        <h2>Suculentas</h2>
+          <div class="cactus-productos">
+            <img class="productos-card" src="../Fotos/suculenta.jpg" alt="cuclentacolgante">
+            <img class="productos-card" src="../Fotos/suculenta1.jpeg" alt="suculenta1">
+            <img class="productos-card" src="../Fotos/suculenta2.jpg" alt="suculentalinda">
           </div>
-        </nav>
-
-
-
-    </header>
-    <main>
-        <section class="titulo-Producto">
-            <h2>Cactus chicos</h2></section>
-            <div class="row row-cols-1 row-cols-md-2 g-4 animate__animated animate__zoomInDown">
-                <div class="col-fot">
-                  <div class="card">
-                    <img src="../cactus/cactuschiquito.jpg" class="card-img-top" alt="cactuschiquito">
-                    <div class="card-body">
-                      <h5 class="card-title">Cactus N°1</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-fot">
-                  <div class="card">
-                    <img src="../cactus/CactusChico.jpg" class="card-img-top" alt="cactusChico">
-                    <div class="card-body">
-                      <h5 class="card-title">Cactus N°2</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-fot">
-                  <div class="card">
-                    <img src="../cactus/cactuschico2.jpg" class="card-img-top" alt="cactuschico2">
-                    <div class="card-body">
-                      <h5 class="card-title">Cactus N°3</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-fot">
-                  <div class="card">
-                    <img src="../cactus/cactusflor.JPG" class="card-img-top" alt="cactusflor">
-                    <div class="card-body">
-                      <h5 class="card-title">Cactus N°4</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-        <section class="titulo-Producto">
-            <h2>Cactus Medianos</h2>
-            <article>
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/cactusmediano.jpg" class="card-img-top" alt="cactusmediano">
-                        <div class="card-body">
-                          <h5 class="card-title">Cactus Mediano N°1</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/cactusmediano1.jpg" class="card-img-top" alt="cactusmedianoverde">
-                        <div class="card-body">
-                          <h5 class="card-title">Cactus Mediano N°2</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/cactusmediano2.jpeg" class="card-img-top" alt="cactuslargo">
-                        <div class="card-body">
-                          <h5 class="card-title">Cactus Mediano N°3</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/cactusmediano3.jpg" class="card-img-top" alt="cactuslargo1">
-                        <div class="card-body">
-                          <h5 class="card-title">Cactus Mediano N°4</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                        <div class="card">
-                          <img src="../cactus/cactusmediano3.jpg" class="card-img-top" alt="cactusgrande">
-                          <div class="card-body">
-                            <h5 class="card-title">Cactus Mediano N°5</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-
-               
-            </article>
-        </section>
-
-        <section class="titulo-Producto">
-            <h2>Suculentas</h2>
-            <article>
-                
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/suculenta.jpg" class="card-img-top" alt="suculentacolgante">
-                        <div class="card-body">
-                          <h5 class="card-title">Suculenta N°1</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/suculenta1.jpeg" class="card-img-top" alt="suculenta1">
-                        <div class="card-body">
-                          <h5 class="card-title">Suculenta N°2</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/suculenta2.jpg" class="card-img-top" alt="suculentalinda">
-                        <div class="card-body">
-                          <h5 class="card-title">Suculenta N°3</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    
-
-
-               
-            </article>
-        </section>
-
-        <section class="titulo-Producto">
-            <h2>Sustratos</h2>
-            <article>
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/sustrato.jpg" class="card-img-top" alt="tierra">
-                        <div class="card-body">
-                          <h5 class="card-title">Sustrato N°1</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/sustrato1.jpg" class="card-img-top" alt="sustrato1">
-                        <div class="card-body">
-                          <h5 class="card-title">Sustrato N°2</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/sustrato2.jpg" class="card-img-top" alt="tierraplantacactus">
-                        <div class="card-body">
-                          <h5 class="card-title">Sustrato N°3</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/sustrato3.jpg" class="card-img-top" alt="tierraplantacactussuculenta">
-                        <div class="card-body">
-                          <h5 class="card-title">Sustrato N°4</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-               
-            </article>
-        </section>
         
-        <section class="titulo-Producto">
-            <h2>Otros</h2>
-            <article>
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/macetachica.jpg" class="card-img-top" alt="macetachica">
-                        <div class="card-body">
-                          <h5 class="card-title">Maceta N°1</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/macetagrande.jpg" class="card-img-top" alt="macetagrande">
-                        <div class="card-body">
-                          <h5 class="card-title">Maceta N°2</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-fot">
-                      <div class="card">
-                        <img src="../cactus/macetaplastico.jpg" class="card-img-top" alt="macetaplastico">
-                        <div class="card-body">
-                          <h5 class="card-title">Sustrato N°3</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    
+      </section>
 
-
-                
-            </article>
-        </section>
-
-    </main>
+      <section>
+        <h2>Sustratos</h2>
+          <div class="cactus-productos">
+            <img class="productos-card" src="../Fotos/sustrato.jpg" alt="tierra">
+            <img class="productos-card" src="../Fotos/sustrato1.jpg" alt="sustrato1">
+            <img class="productos-card" src="../Fotos/sustrato2.jpg" alt="tierraplantacactus">
+            <img class="productos-card" src="../Fotos/sustrato3.jpg" alt="tierraplantacactussuculenta">
+          </div>
+  
+      </section>
+        
+      <section>
+        <h2>Otros</h2>
+          <div class="cactus-productos">
+            <img class="productos-card" src="../Fotos/macetachica.jpg" alt="macetachica">
+            <img class="productos-card" src="../Fotos/macetagrande.jpg" alt="macetagrande">
+            <img class="productos-card" src="../Fotos/macetaplastico.jpg" alt="macetaplastico">  
+          </div>    
+      </section>
+  </main>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="Trabaja">Trabaja con nosotros</a></li>
-                <li><a href="Quejas">Quejas</a></li>
-                <li><a href="Instagram">Instagram</a></li>
-                <li><a href="Facebook">Facebook</a></li>
-            </ul>
-        </nav>
+      <ul>
+        <li><a href="https://www.instagram.com/elgarage.cactus/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/elgarage.cactus">Facebook</a></li>
+      </ul>
+
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
 </body>
 </html>
